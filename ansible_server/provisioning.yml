@@ -32,13 +32,13 @@
           
   - name: Clonando Repositorio
     git:
-      repo: https://github.com/matheusmaais/testegit.git
+      repo: https://github.com/paulopezzetti/trade.git
       dest: /home/ubuntu/testegit
   
   - name: Rodando Container da Aplicacao
     docker_container: 
-      name: testedocker
-      image: matheusmaais/testedocker2
+      name: trade
+      image: paulopezzetti/trade
       ports: 3000:3000
       detach: yes
     
