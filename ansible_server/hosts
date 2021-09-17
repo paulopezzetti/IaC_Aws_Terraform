@@ -1,0 +1,2 @@
+[lab] 
+ 18.215.162.201 ansible_ssh_private_key_file=/root/Terraform_ansible_docker/lab.pem ansible_ssh_user=ubuntu
