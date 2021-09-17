@@ -41,7 +41,7 @@ https://www.terraform.io/downloads.html
 https://www.digitalocean.com/community/tutorials/como-instalar-e-configurar-o-ansible-no-ubuntu-18-04-pt
 
   -  Clonar o repositório
-  -  Fazer as substituições necessarias no arquivo variables.tf
+  -  Fazer as substituições necessarias no arquivo terraform.tfvars
   -  Criar um security group e substituir pelo security_group no arquivo instance.tf
   -  No diretório raiz do repo rodar:
         sh run.sh
