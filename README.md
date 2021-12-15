@@ -15,7 +15,7 @@ Como faz:
   -  Ansible:
         - Faz a atualização dos pacotes
         - Instala docker e docker-compose
-        - Clona repositorio matheusmaais/testegit
+        - Clona repositorio paulopezzetti/project_lab_deploy
         - Coloca rodar o container com a aplicacao demo
         - Roda o docker-compose que possui o Jenkins 
         - Aguarda o arquivo de senha inicial do Jenkins ser criado
